@@ -20,7 +20,7 @@ public class sellers{
     //Initializations for class
     public sellers(){
         this.leftTree = null;
-        this.rightTree - null;
+        this.rightTree = null;
     }
     //Initializations for class with information
     public sellers(String sellerName, String sellerAddress, String sellerCity, String sellerState, int sellerZip){
