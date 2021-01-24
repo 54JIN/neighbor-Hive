@@ -5,8 +5,9 @@ public class sellers {
     $$Description
     **
     $$TO DO:
-    **Hashing method, add method, get method?, set method
+    **set method,
     **get method: list of food, food in question, list of drinks, drink in question, list of confiments, confiment in question
+    **enusre data are added as eiter all capital or all lowercase when stored.
     */
     //Sellers information
     sellerData sellerContent;
@@ -96,7 +97,7 @@ public class sellers {
     }
     public static void main(String[] args){
         sellers temp = new sellers();
-        
+        /*
         String sellerFirstName = "Sajin";
         String sellerLastName = "Saju";
         String sellerAddress = "45 Melrose Ave";
@@ -113,7 +114,7 @@ public class sellers {
         sellerZip = 07621;
         temp.addSeller(sellerFirstName, sellerLastName, sellerAddress, sellerCity, sellerState, sellerZip);
         System.out.println(temp.containsSeller(sellerFirstName, sellerLastName, sellerAddress, sellerCity, sellerState, sellerZip));
-        
+        */
         /*
         Scanner scan = new Scanner(System.in);
         
