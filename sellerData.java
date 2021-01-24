@@ -1,4 +1,9 @@
 public class sellerData{
+    /*
+    $$TO DO:
+    **Make a get method for each data?
+    **Make a set method for each data?
+    */
 
     //Sellers information
     String sellerFirstName;
@@ -43,6 +48,7 @@ public class sellerData{
             head = temp;
         }
     }
+    //O(1) insert time
     public void addData(sellerData tempData){
         if(head == null){
             head = tempData;
