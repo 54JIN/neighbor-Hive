@@ -87,13 +87,36 @@ public class foodSale{
         }
         return false;
     }
+    //removes food from list
+    public void removeFood(String foodName){
+        if(head != null){
+            if(head.foodName.equals(foodName)){
+                head = head.previous;
+            }
+            else{
+                foodSale cursor = head;
+                while(cursor.previous != null){
+                    if(cursor.previous.foodName.equals(foodName)){
+                        cursor.previous = cursor.previous.previous;
+                        break;
+                    }
+                    cursor = cursor.previous;
+                }
+            }
+        }
+    }
     public static void main(String[] args){
+        /*
         foodSale temp = new foodSale();
-        temp.add("hamburger", 1.00, false);
+        //temp.add("hamburger", 1.00, false);
         temp.add("burger", 3.00, false);
         System.out.println(temp.containsFood("burger"));
+        System.out.println(temp.containsFood("hamburger"));
         System.out.println(temp.getPrice("burger"));
         temp.setPrice("burger", 4.00);
         System.out.println(temp.getPrice("burger"));
+        temp.removeFood("burger");
+        System.out.println(temp.containsFood("burger"));
+        */
     }
 }

@@ -6,8 +6,8 @@ public class sellers {
     **
     $$TO DO:
     **set method,
-    **get method: list of food, food in question, list of drinks, drink in question, list of confiments, confiment in question
-    **enusre data are added as eiter all capital or all lowercase when stored.
+    **get method: list of food, food in question, list of drinks, drink in question, list of condiments, condiments in question
+    **ensure data are added as either all capital or all lowercase when stored.
     */
     //Sellers information
     sellerData sellerContent;
@@ -94,6 +94,9 @@ public class sellers {
         sellerData tempData = searchTree(root, ID);
         
         return tempData == null? false : tempData.containsData(sellerFirstName, sellerLastName, sellerAddress, sellerCity, sellerState, sellerZip);
+    }
+    public void findFood(String food){
+        //find the food, the seller, the price of the food and lists it out of all the sellers.
     }
     public static void main(String[] args){
         sellers temp = new sellers();
