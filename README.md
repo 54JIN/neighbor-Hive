@@ -1,5 +1,4 @@
 # neighbor-Hive
-//Sajin
 
 Sell food(platform) or buy food from published menu from your neighbor 
 
