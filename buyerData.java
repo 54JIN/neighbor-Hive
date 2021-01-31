@@ -2,7 +2,7 @@ public class buyerData {
     /*
     TO DO
     1.fix the nullpointer exception of removeBuyer(when removing the first item after the head)
-
+    //che
 
     */
     //linked list class
