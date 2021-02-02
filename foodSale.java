@@ -39,6 +39,15 @@ public class foodSale{
             head = temp;
         }
     }
+    public void add(foodSale food){
+        if(head == null){
+            head = food;
+        }
+        else{
+            food.previous = head;
+            head = food;
+        }
+    }
     //returns the node matching the foodName provided as input to the method
     public foodSale returnFood(String foodName){
         if(head == null){
