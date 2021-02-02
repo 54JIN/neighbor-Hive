@@ -8,6 +8,7 @@ public class sellers {
     **set method,
     **get method: list of food, food in question, list of drinks, drink in question, list of condiments, condiments in question
     **ensure data are added as either all capital or all lowercase when stored.
+    **add food**
     */
     //Sellers information
     sellerData sellerContent;
