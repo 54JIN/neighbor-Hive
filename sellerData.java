@@ -4,6 +4,7 @@ public class sellerData{
     **Make a get method for each data?
     **Make a set method for each data?
     **Make sure added data are capitialised. 
+    //needs work
     */
 
     //Sellers information
